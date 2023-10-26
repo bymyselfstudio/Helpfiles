@@ -1,10 +1,10 @@
 
 Contents:
-<ul>
-    <a href="#venv">VENV</a><br>
-    <a href="#filehandling_venv">FILEHANDLING IN VENV</a><br>
-    <a href="#requirements">REQUIREMENTS.TXT</a><br>
-</ul>
+
+<a href="#venv">VENV</a><br>
+<a href="#filehandling_venv">FILEHANDLING IN VENV</a><br>
+<a href="#requirements">REQUIREMENTS.TXT</a><br>
+
 
 <h2 id="venv">VENV</h2>
 
