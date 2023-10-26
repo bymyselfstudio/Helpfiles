@@ -1,12 +1,12 @@
 
 Contents:
-1. VENV
-2. FILEHANDLING IN VENV
-3. REQUIREMENTS.TXT
+<ul>
+    <a href="#venv"><li>VENV</li></a>
+    <a href="#filehandling_venv"<li>FILEHANDLING IN VENV</li></a>
+    <a href="#requirements"<li>REQUIREMENTS.TXT</li></a>
+</ul>
 
-
-1. VENV
-=======
+<h2 id="venv">VENV</h2>
 
 Install virtual env:
 
@@ -52,20 +52,18 @@ Anmerkung:
 Ein Virtual Environment (Kurzform: virtualenv oder ganz kurz: venv) dient zum Einrichten von ein oder mehreren unabhängigen Python-Umgebungen. Normalerweise werden alle Python-Module in die allgemeine Benutzer- oder Systemumgebung installiert.
 ----------------------------------------------
 
-2. FILEHANDLING IN VENV?
-========================
+<h2 id="filehandling_venv">FILEHANDLING IN VENV?</h2>
 
 >>>>> QUESTION <<<<<<<
 
 <a href="https://stackoverflow.com/questions/51499950/where-do-i-put-my-python-files-in-the-venv-folder">
     Where do I put my python files in the venv folder?</a>
 
-Where do I put my python files in the venv folder?
-
 (Probably a noob question, but I didn't find a solution after googling for 20 minutes.)
 
 I created a new pure Python project with PyCharm which yielded the following folder structure
 
+<code>
 myproject
 └── venv
     ├── bin
@@ -85,6 +83,8 @@ myproject
     │   └── python3.5
     ├── lib64 -> lib
     └── pyvenv.cfg
+</code>
+    
 Where do I put myproject.py or the myproject folder now?
 
 Inside or outside of venv?
@@ -112,12 +112,10 @@ and run your python code using python command (python3 mycode.py)
 
 
 
-3. REQUIREMENTS.TXT
-===================
+<h2 id="requirements">REQUIREMENTS.TXT</h2>
 
-https://frankcorso.dev/setting-up-python-environment-venv-requirements.html
-
-Setting Up Your Python Environment With Venv and requirements.txt
+<a href="https://frankcorso.dev/setting-up-python-environment-venv-requirements.html">
+    Setting up python environment venv requirements</a>
 
 Reading From and Writing to CSV Files in Python
 By default, all the Python packages you install on your computer are used within all of your projects. But, what if one project requires version 1 of a package and another project requires version 2?
