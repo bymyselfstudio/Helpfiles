@@ -56,7 +56,7 @@ Normalerweise werden alle Python-Module in die allgemeine Benutzer- oder
 Systemumgebung installiert.
 
 
-<h2 id="filehandling">Filehandling in venv</h2>
+<h2 id="filehandling">Filehandling</h2>
 
 QUESTION
 
