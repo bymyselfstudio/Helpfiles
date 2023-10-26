@@ -1,9 +1,15 @@
+<style>
+    a li {
+        list-style-type: none;        
+    }
+</style>
+
 
 Contents:
 <ul>
     <a href="#venv"><li>VENV</li></a>
-    <a href="#filehandling_venv"<li>FILEHANDLING IN VENV</li></a>
-    <a href="#requirements"<li>REQUIREMENTS.TXT</li></a>
+    <a href="#filehandling_venv"><li>FILEHANDLING IN VENV</li></a>
+    <a href="#requirements"><li>REQUIREMENTS.TXT</li></a>
 </ul>
 
 <h2 id="venv">VENV</h2>
