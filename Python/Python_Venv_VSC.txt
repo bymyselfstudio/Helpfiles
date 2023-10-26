@@ -8,6 +8,14 @@ Contents:
 1. VENV
 =======
 
+Install virtual env:
+
+Navigate to folder holding pip (C:\Users\....Python3xx\Scripts) 
+and type 
+
+$ pip install virtualenv
+
+
 VSCode direkt in einem Verzeichnis öffnen [aus dem Win CLI]:
 $ code .
 
