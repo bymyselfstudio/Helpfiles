@@ -5,6 +5,8 @@ VENV<br>
 FILEHANDLING IN VENV<br>
 REQUIREMENTS<br>
 
+NOTE: $ is equivalent to C:>\
+
 <h2>VENV</h2>
 
 Install virtual env:
@@ -15,17 +17,17 @@ and type
 $ pip install virtualenv
 
 
-VSCode direkt in einem Verzeichnis öffnen [aus dem Win CLI]:
+VSCode direkt in einem Verzeichnis öffnen aus dem (Win CLI):
 $ code .
 
-Python virtual environment anlegen [aus dem VSC-Terminal]:
+Python virtual environment anlegen aus dem (VSC-Terminal):
 $ python -m venv venv
 --> das zweite venv ist hierbei der Name des virtuellen
 Environments. Dieser kann auch anders lauten.
 Siehe auch https://docs.python.org/3/tutorial/venv.html
 
-Das neu angelegte venv nutzen (aktivieren) [aus dem VSC-Terminal]:
-$ .\\venv\\Scripts\\Activate
+Das neu angelegte venv aktivieren (aus dem VSC-Terminal):
+<code>$ .\\venv\\Scripts\\Activate</code>
 --> Falls das erstellte Environment nicht venv heißt,
 lautet der Befehl .\\name-des-venv\\Scripts\\Activate
 
@@ -48,14 +50,17 @@ Venv aus cmd verlassen (vom Projektordner aus):
 $ ..\venv\Scripts\deactivate
 
 Anmerkung:
-Ein Virtual Environment (Kurzform: virtualenv oder ganz kurz: venv) dient zum Einrichten von ein oder mehreren unabhängigen Python-Umgebungen. Normalerweise werden alle Python-Module in die allgemeine Benutzer- oder Systemumgebung installiert.
-----------------------------------------------
+Ein Virtual Environment (Kurzform: virtualenv oder ganz kurz: venv) 
+dient zum Einrichten von ein oder mehreren unabhängigen Python-Umgebungen. 
+Normalerweise werden alle Python-Module in die allgemeine Benutzer- oder 
+Systemumgebung installiert.
+
 
 <h2>FILEHANDLING IN VENV?</h2>
 
 QUESTION
 
-<a href="https://stackoverflow.com/questions/51499950/where-do-i-put-my-python-files-in-the-venv-folder">
+<a href="https://stackoverflow.com/questions/51499950/where-do-i-put-my-python-files-in-the-venv-folder" target="_blank">
     Where do I put my python files in the venv folder?</a>
 
 (Probably a noob question, but I didn't find a solution after googling for 20 minutes.)
@@ -111,7 +116,7 @@ and run your python code using python command (python3 mycode.py)
 
 <h2>REQUIREMENTS</h2>
 
-<a href="https://frankcorso.dev/setting-up-python-environment-venv-requirements.html">
+<a href="https://frankcorso.dev/setting-up-python-environment-venv-requirements.html" target="_blank">
     Setting up python environment venv requirements</a>
 
 Reading From and Writing to CSV Files in Python
