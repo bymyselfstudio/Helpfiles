@@ -54,7 +54,7 @@ Ein Virtual Environment (Kurzform: virtualenv oder ganz kurz: venv) dient zum Ei
 
 <h2 id="filehandling_venv">FILEHANDLING IN VENV?</h2>
 
->>>>> QUESTION <<<<<<<
+QUESTION
 
 <a href="https://stackoverflow.com/questions/51499950/where-do-i-put-my-python-files-in-the-venv-folder">
     Where do I put my python files in the venv folder?</a>
@@ -92,7 +92,7 @@ In the venv/binfolder?
 Just inside venv, i.e. myproject/venv/myproject.py?
 
 
->>>>> ANSWER <<<<<<
+ANSWER
 
 The virtual environment manages files which aren't yours. It doesn't care how you manage your own files. Put them wherever makes sense to you, just not anywhere inside the venv directory tree. Common solutions include directly in myproject, or in myproject/src.
 
@@ -109,7 +109,6 @@ To take advantage of the virtual environment,
 activate it (source path_to_virtual_env/bin/activate )
 install the necessary python packages using pip (pip install XYZ)
 and run your python code using python command (python3 mycode.py)
-
 
 
 <h2 id="requirements">REQUIREMENTS.TXT</h2>
