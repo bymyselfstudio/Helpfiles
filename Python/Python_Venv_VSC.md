@@ -2,7 +2,7 @@
 Contents:
 
 * <a href="#venv">Venv</a>
-* <a href="#filehandling">Filehandling in venv</a>
+* <a href="#filehandling">Filehandling</a>
 * <a href="#requirements">Requirements</a>
 
 NOTE: $ is equivalent to C:>\
