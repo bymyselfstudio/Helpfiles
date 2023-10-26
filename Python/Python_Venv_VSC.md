@@ -1,13 +1,13 @@
 
 Contents:
 
-VENV<br>
-FILEHANDLING IN VENV<br>
-REQUIREMENTS<br>
+* <a href="#venv">Venv</a>
+* <a href="#filehandling">Filehandling in venv</a>
+* <a href="#requirements">Requirements</a>
 
 NOTE: $ is equivalent to C:>\
 
-<h2>VENV</h2>
+<h2 id="venv">Venv</h2>
 
 Install virtual env:
 
@@ -56,7 +56,7 @@ Normalerweise werden alle Python-Module in die allgemeine Benutzer- oder
 Systemumgebung installiert.
 
 
-<h2>FILEHANDLING IN VENV?</h2>
+<h2 id="filehandling">Filehandling in venv</h2>
 
 QUESTION
 
@@ -68,7 +68,7 @@ QUESTION
 I created a new pure Python project with PyCharm which yielded the following folder structure
 
 
-<code>myproject
+<pre>myproject
 └── venv
     ├── bin
     │   ├── activate
@@ -86,7 +86,7 @@ I created a new pure Python project with PyCharm which yielded the following fol
     ├── lib
     │   └── python3.5
     ├── lib64 -> lib
-    └── pyvenv.cfg</code>
+    └── pyvenv.cfg</pre>
     
 Where do I put myproject.py or the myproject folder now?
 
@@ -114,7 +114,7 @@ install the necessary python packages using pip (pip install XYZ)
 and run your python code using python command (python3 mycode.py)
 
 
-<h2>REQUIREMENTS</h2>
+<h2 id="requirements">Requirements</h2>
 
 <a href="https://frankcorso.dev/setting-up-python-environment-venv-requirements.html" target="_blank">
     Setting up python environment venv requirements</a>
