@@ -146,21 +146,26 @@ openpyxl
 pandas
 To make it easy to scan and read, the list is normally alphabetical. If you want a specific version, you could add an equal sign like this:
 
+<pre>
 matplotlib==3.3.3
 numpy==1.19.3
 openpyxl==3.0.5
 pandas==1.0.5
-
+</pre>
+    
 Now, it would be challenging to manually write out all your dependencies and remember to change the version number when you upgrade. Luckily, pip can help with this.
 
 If you ever want to see what packages you have installed, you can run pip list. This will output all the packages installed and their version numbers.
 
+
+<pre>
 Package         Version
 --------------- ---------
 matplotlib      3.3.3
 numpy           1.19.3
 openpyxl        3.0.5
 pandas          1.0.5
+</pre>
 
 Even better, you can use pip freeze > requirements.txt to automatically take this list and store it in your requirements.txt file.
 
