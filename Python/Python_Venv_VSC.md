@@ -1,11 +1,11 @@
 
 Contents:
 
-[VENV][1]
-[FILEHANDLING IN VENV][2]
-[REQUIREMENTS][3]
+VENV<br>
+FILEHANDLING IN VENV<br>
+REQUIREMENTS<br>
 
-[1]: <h2>VENV</h2>
+<h2>VENV</h2>
 
 Install virtual env:
 
@@ -51,7 +51,7 @@ Anmerkung:
 Ein Virtual Environment (Kurzform: virtualenv oder ganz kurz: venv) dient zum Einrichten von ein oder mehreren unabhängigen Python-Umgebungen. Normalerweise werden alle Python-Module in die allgemeine Benutzer- oder Systemumgebung installiert.
 ----------------------------------------------
 
-[2]:<h2>FILEHANDLING IN VENV?</h2>
+<h2>FILEHANDLING IN VENV?</h2>
 
 QUESTION
 
@@ -109,7 +109,7 @@ install the necessary python packages using pip (pip install XYZ)
 and run your python code using python command (python3 mycode.py)
 
 
-[3]:<h2>REQUIREMENTS</h2>
+<h2>REQUIREMENTS</h2>
 
 <a href="https://frankcorso.dev/setting-up-python-environment-venv-requirements.html">
     Setting up python environment venv requirements</a>
