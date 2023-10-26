@@ -57,7 +57,8 @@ Ein Virtual Environment (Kurzform: virtualenv oder ganz kurz: venv) dient zum Ei
 
 >>>>> QUESTION <<<<<<<
 
-https://stackoverflow.com/questions/51499950/where-do-i-put-my-python-files-in-the-venv-folder
+<a href="https://stackoverflow.com/questions/51499950/where-do-i-put-my-python-files-in-the-venv-folder">
+    Where do I put my python files in the venv folder?</a>
 
 Where do I put my python files in the venv folder?
 
