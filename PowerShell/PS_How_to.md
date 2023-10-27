@@ -1,21 +1,33 @@
-Work in progress
-
-
-# PowerShell
+<h1>PowerShell</h1>
 PowerShell Core v7.3.8
 
-<details>
-<summary>Overview</summary>
-<a href="#autocomplete">Autocomplete</a><br>
-<a href="#pipes">Pipes</a>
-</details>
+<h3>Autocomplete</h3>
+Autocomplete works either with pressing tab or <pre>Ctrl + Space</pre> to see a list of possible commands or options.
 
-<h2 id="autocomplete">Autocomplete</h2>
-Ctrl + space or tab tab ...
+<h3>Finding commands</h3>
+Filters for commands with 'time' in its noun
+<pre>
+Get-Command -Noun *time*
+</pre>
 
-<h2 id="pipes">Pipes</h2>
-<h3>Example:</h3>
-Piping the output from one Cmdlet as input to another and print as list:
+Filters for commands with 'time' in its name
+<pre>
+Get-Command -Name *time*
+</pre>
+
+Filters for commands with "time" in noun and 'get' in verb
+<pre>
+Get-Command -Noun *time* -Verb get
+</pre>
+
+Works also with reversed options
+<pre>
+Get-Command -Verb Set -Noun *time*
+</pre>
+
+<h3>Pipes</h3>
+Example:<br>
+Filter and pipe the output from one Cmdlet as input to another and print as list:
 <pre>
 Get-Service | Where-Object { $_.Status -eq "Running" } | Select-Object DisplayName, Status
 </pre>
