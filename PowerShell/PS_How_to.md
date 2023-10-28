@@ -2,7 +2,7 @@
 PowerShell Core v7.3.8
 
 <h3>Autocomplete</h3>
-Autocomplete works either with pressing tab or <pre>Ctrl + Space</pre> to see a list of possible commands or options.
+Autocomplete works either with pressing <i>Tab</i> or <i>Ctrl + Space</i> to see a list of possible commands or options.
 
 <h3>Finding commands</h3>
 
