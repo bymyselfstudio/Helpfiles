@@ -1,36 +1,46 @@
 <h1>PowerShell</h1>
-PowerShell Core v7.3.8
+PowerShell Core v7.3.8<br><br>
 
-<h3>Autocomplete</h3>
-Autocomplete works either with pressing <i>Tab</i> or <i>Ctrl + Space</i> to see a list of possible commands or options.
+<p>Auto complete works either with pressing <i>Tab</i> multiple times or <i>Ctrl + Space</i> to see a list of possible commands or options. To loop through possible options, a - (dash) is needed first.</p>
 
 <h3>Finding commands</h3>
 
-Filters for commands with 'time' in its noun
+Filters for commands with 'time' in its noun:
 ~~~
 Get-Command -Noun *time*
 ~~~
 
-Filters for commands with 'time' in its name
+Filters for commands with 'time' in its name:
 ~~~
 Get-Command -Name *time*
 ~~~
 
-Filters for commands with "time" in noun and 'get' in verb
+Filters for commands with "time" in noun and 'get' in verb:
 ~~~
 Get-Command -Noun *time* -Verb get
 ~~~
 
-Works also with reversed options
+Works also with reversed options:
 ~~~
 Get-Command -Verb Set -Noun *time*
 ~~~
 
 <h3>Pipes</h3>
-Example:<br>
 
 Filter and pipe the output from one Cmdlet as input to another and print as list:
 ~~~
 Get-Service | Where-Object { $_.Status -eq "Running" } | Select-Object DisplayName, Status
+~~~
+
+<h3>Create a log file</h3>
+
+Create a textfile from output in the current directory:<br>
+~~~
+Get-Command -Verb Get -Noun *time* > .\name_of_file.txt
+~~~
+
+Append output in an existing textfile in the current directory:<br>
+~~~
+Get-Command -Verb Get -Noun *time* >> .\name_of_file.txt
 ~~~
 
