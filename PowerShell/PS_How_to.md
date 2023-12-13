@@ -44,3 +44,9 @@ Append output in an existing textfile in the current directory:<br>
 Get-Command -Verb Get -Noun *time* >> .\name_of_file.txt
 ~~~
 
+<h3>Moving files</h3>
+
+Move all excel files from current directory to another:<br>
+~~~
+Move-Item -Path .\*.xlsx -Destination C:\Temp
+~~~
