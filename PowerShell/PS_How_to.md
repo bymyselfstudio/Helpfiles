@@ -3,7 +3,7 @@ PowerShell Core v7.3.8<br><br>
 
 <p>Auto complete works either with pressing <i>Tab</i> multiple times or <i>Ctrl + Space</i> to see a list of possible commands or options. To loop through possible options, a - (dash) is needed first.</p>
 
-<h3>Finding commands</h3>
+<h3>Useful commands</h3>
 
 Filters for commands with 'time' in its noun:
 ~~~
