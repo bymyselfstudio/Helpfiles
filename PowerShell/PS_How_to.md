@@ -5,6 +5,16 @@ PowerShell Core v7.3.8<br><br>
 
 <h3>Useful commands</h3>
 
+Get help for any command:
+~~~
+Get-Help name_of_command
+~~~
+
+Filters for anything containing "policy":
+~~~
+Get-Command *policy*
+~~~
+
 Filters for commands with 'time' in its noun:
 ~~~
 Get-Command -Noun *time*
