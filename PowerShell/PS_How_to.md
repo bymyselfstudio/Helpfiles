@@ -62,6 +62,11 @@ Filter and pipe the output from one Cmdlet as input to another and print as list
 Get-Service | Where-Object { $_.Status -eq "Running" } | Select-Object DisplayName, Status
 ~~~
 
+Create a html file from a cmdlet in the current directory:
+~~~
+Get-Help *process* | select Name | ConvertTo-Html > .\output.html
+~~~
+
 <h3>Create a log file</h3>
 
 Create a textfile from output in the current directory:<br>
