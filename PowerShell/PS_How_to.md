@@ -25,6 +25,21 @@ Works also with reversed options:
 Get-Command -Verb Set -Noun *time*
 ~~~
 
+Shows all aliases:
+~~~
+Get-Alias
+~~~
+
+Tracking a session:
+~~~
+Start-Transcript
+~~~
+
+Stopping the tracking session:
+~~~
+Stop-Transcript
+~~~
+
 <h3>Pipes</h3>
 
 Filter and pipe the output from one Cmdlet as input to another and print as list:
