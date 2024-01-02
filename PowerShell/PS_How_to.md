@@ -11,7 +11,7 @@ Get-Help name_of_command
 ~~~
 
 List all help files:
-~~ 
+~~~ 
 Get-Help *about*
 ~~~
 
