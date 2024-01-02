@@ -10,6 +10,11 @@ Get help for any command:
 Get-Help name_of_command
 ~~~
 
+List all help files:
+~~ 
+Get-Help *about*
+~~~
+
 Filters for anything containing "policy":
 ~~~
 Get-Command *policy*
