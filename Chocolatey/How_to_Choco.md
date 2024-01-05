@@ -17,6 +17,11 @@ Show choco version
 choco -v
 ~~~
 
+Install Choco GUI
+~~~
+choco install chocolateygui
+~~~
+
 List already installed packages
 ~~~
 choco list
