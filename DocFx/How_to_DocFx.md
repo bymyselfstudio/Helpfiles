@@ -15,4 +15,7 @@ Tested with .NET 8.0 in Visual Studio 2022 Community
 
 ### Updating existing documentation
 
-WIP
+- Stop localhost server with Ctrl + C
+- Make changes to the code
+- Build solution
+- Restart localhost server and refresh browser page
