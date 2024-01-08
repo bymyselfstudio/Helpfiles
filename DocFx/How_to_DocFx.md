@@ -18,4 +18,8 @@ Tested with .NET 8.0 in Visual Studio 2022 Community
 - Stop localhost server with Ctrl + C
 - Make changes to the code
 - Build solution
+  * Not sure, if this is necessary, but seems to:
+  * Change directory to one folder above --> cd ..
+  * run "docfx build"
+  * Go back to "_site" --> cd _site
 - Restart localhost server and refresh browser page
