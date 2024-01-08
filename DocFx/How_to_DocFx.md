@@ -1,6 +1,6 @@
 Tested with .NET 8.0
 
-- New project > class library
+- New project > class library (no .NET Framework! Has to be .NET 6.0 and higher!)
 - Create classes, methods and summaries
 - Go to NuGet PackageManager and install docfx.console
 - Rightclick solution and build it 
