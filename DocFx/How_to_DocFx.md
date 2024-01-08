@@ -8,4 +8,4 @@ Tested with .NET 8.0
   -> after the build there should be a new directory in the tree --> _site
 - open CLI and navigate to "project_directory/_site"
 - run 'docfx serve .\'
-- open http://localhost:8080 in a browser
+- open http: //localhost:8080 in a browser (without whitespace)
