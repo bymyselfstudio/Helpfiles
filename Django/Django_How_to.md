@@ -49,7 +49,7 @@ Den vServer starten:
 ~~~
 py manage.py runserver
 ~~~
-Hernach sollte im CLI der Link 'http://127.0.0.1:8000/' erscheinen.
+Hernach sollte im CLI der Link 'http: //127.0.0.1:8000/' erscheinen (ohne Leerzeichen).
 
 HINWEISE:
 --> Beim erstmaligen Starten kommt eine Meldung über nicht angewendete Migrationen, die vorerst ignoriert werden kann.<br>
